@@ -1,3 +1,5 @@
+import { FeatureBlocksSection } from '@/constants'
+
 export default function FeaturesBlocks() {
   return (
     <section className="relative">
@@ -31,8 +33,8 @@ export default function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Headless CMS</h4>
-              <p className="text-gray-600 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">{FeatureBlocksSection.blocks[0].title}</h4>
+              <p className="text-gray-600 text-center">{FeatureBlocksSection.blocks[0].description}</p>
             </div>
 
             {/* 2nd item */}
@@ -47,8 +49,8 @@ export default function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Headless CMS</h4>
-              <p className="text-gray-600 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">{FeatureBlocksSection.blocks[1].title}</h4>
+              <p className="text-gray-600 text-center">{FeatureBlocksSection.blocks[1].description}</p>
             </div>
 
             {/* 3rd item */}
@@ -64,8 +66,8 @@ export default function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Headless CMS</h4>
-              <p className="text-gray-600 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">{FeatureBlocksSection.blocks[2].title}</h4>
+              <p className="text-gray-600 text-center">{FeatureBlocksSection.blocks[2].description}</p>
             </div>
 
             {/* 4th item */}
@@ -81,8 +83,8 @@ export default function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Headless CMS</h4>
-              <p className="text-gray-600 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">{FeatureBlocksSection.blocks[3].title}</h4>
+              <p className="text-gray-600 text-center">{FeatureBlocksSection.blocks[3].description}</p>
             </div>
 
             {/* 5th item */}
@@ -97,8 +99,8 @@ export default function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Headless CMS</h4>
-              <p className="text-gray-600 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">{FeatureBlocksSection.blocks[4].title}</h4>
+              <p className="text-gray-600 text-center">{FeatureBlocksSection.blocks[4].description}</p>
             </div>
 
             {/* 6th item */}
@@ -112,8 +114,8 @@ export default function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Headless CMS</h4>
-              <p className="text-gray-600 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">{FeatureBlocksSection.blocks[5].title} </h4>
+              <p className="text-gray-600 text-center">{FeatureBlocksSection.blocks[5].description}</p>
             </div>
 
           </div>
